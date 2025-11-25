@@ -30,24 +30,26 @@ max-width: 10rem;
     display: grid;
     grid-template-columns:auto auto auto ;
     gap: 2rem;
-    background-color: rgb(255, 255, 255);
+    background-color:#FFFFFF;
     padding: 5px;
 }
 
 .container div {
-  background-color: #64ed2e;
+  background-color: #D9EDB5;
+  color: black;
   text-align: center;
   padding-bottom: 1rem;
   font-size: 30px;
 }
 .item1 {
   grid-row-start:1;
-  grid-row-end: 5;
+  grid-row-end: 2;
 }
 .item2{
     grid-row-start:1;
-    grid-row-end: 5;
+    grid-row-end:3;
 }
+
 
 
 

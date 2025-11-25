@@ -19,32 +19,37 @@ body{margin: 0px; color: white; background-color: rgb(60, 103, 60);}
 
 div{
 text-align: center; size: 100%;
-
-
-
 }
-img{
-max-height: auto;
-max-width: 50%;
 
+img{
+max-height: 10rem;
+max-width: 10rem;
 }
 
 .container{
     display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 5px;
+    grid-template-columns:auto auto auto ;
+    gap: 2rem;
     background-color: rgb(255, 255, 255);
     padding: 5px;
 }
 
+.container div {
+  background-color: #64ed2e;
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 30px;
+}
 .item1 {
-  grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-start:1;
+  grid-row-end: 5;
 }
 .item2{
     grid-row-start:1;
-    grid-row-end: 4;
+    grid-row-end: 5;
 }
+
+
 
 
 

@@ -1,10 +1,9 @@
-/*de body het logo en de div-options kopieren naar je eigen css*/
 body{margin: 0px; color: white; background-color: #3F593C;}
 
 #logo{display: block; width: 16vw; margin-left: auto;margin-right: auto;}
 .div-options{text-align: center; width:100%; background-color: #283F25; font-size: 2vw;}
 
-
+/*code homepage*/
 .image-main-big{width: 100%; display: block; height: auto;}
 .container-home{
     display: grid;
@@ -106,7 +105,76 @@ body{margin: 0px; color: white; background-color: #3F593C;}
     width: 160%;
 }
 
-/*neem de footer fotter-text en openingstijden over*/
+/*code contact page*/
+.lijntje{
+    background-color: rgb(138, 236, 138);
+}
+
+.titel-contact{grid-area: titel-contact;}
+.text-contact{grid-area: text-contact;}
+.email-contact{grid-area: email-contact;}
+.vraag-contact{grid-area: vraag-contact;}
+.type-contact{grid-area: type-contact;}
+.verzend-contact{grid-area: verzend-contact;}
+.grid-container-contact{
+    display: grid;
+    grid-template-areas: 
+    'titel-contact titel-contact'
+    'text-contact vraag-contact'
+    'email-contact type-contact'
+    'email-contact verzend-contact'
+    ;
+}
+.grid-container-contact div{
+    width: 49%;
+    text-align: center;
+}
+.grid-container-contact p{text-align: center;}
+
+/*code assortiment page*/
+div{
+text-align: center; size: 100%;
+}
+
+img{
+max-height: 100%;
+max-width: 100%;
+border-top-left-radius:10px;
+border-top-right-radius:10px; 
+}
+.container div img{
+    height: 80%;
+    width: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    gap: 1rem;
+    background-color:#FFFFFF;
+    padding-top:3rem; 
+    padding-bottom: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.container div {
+  background-color: #D9EDB5;
+  color: black;
+  text-align: center;
+  font-size: 100%;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.item1{
+grid-row-start: 2;
+grid-row-end: 4;
+grid-column-start: 1;
+grid-column-end: 3;
+}
+
 #footer{
     display: grid;
     grid-template-columns: auto auto auto;

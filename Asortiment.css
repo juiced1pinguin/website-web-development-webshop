@@ -27,14 +27,19 @@ max-width: 100%;
 border-top-left-radius:10px;
 border-top-right-radius:10px; 
 }
-
+.container div img{
+    height: 80%;
+    width: 100%;
+}
 .container{
     display: grid;
     grid-template-columns:auto auto auto auto;
     gap: 1rem;
     background-color:#FFFFFF;
-    padding:4rem;
-    
+    padding-top:3rem; 
+    padding-bottom: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .container div {
@@ -43,6 +48,8 @@ border-top-right-radius:10px;
   text-align: center;
   font-size: 100%;
   border-radius: 10px;
+  height: 100%;
+  width: 100%;
   
 }
 

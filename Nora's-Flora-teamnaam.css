@@ -2,12 +2,12 @@ body{margin: 0px; color: white; background-color: #3F593C;}
 
 #logo{display: block; width: 16vw; margin-left: auto;margin-right: auto;}
 .div-options{text-align: center; width:100%; background-color: #283F25; font-size: 2vw;}
+.div-options a{padding-left: 1vw; padding-right: 1vw;}
 
 /*code homepage*/
 .image-main-big{width: 100%; display: block; height: auto;}
 .container-home{
     display: grid;
-
 }
 #image-background{
     width: 100%;
@@ -21,7 +21,7 @@ body{margin: 0px; color: white; background-color: #3F593C;}
     padding-bottom: 0vw;
 }
 #image-background div p{
-    
+    font-family: sans-serif;
     text-shadow: 0 10px 29px rgba(0,0,0,1);
     font-size: 4vw;
     text-align: center;
@@ -43,17 +43,38 @@ body{margin: 0px; color: white; background-color: #3F593C;}
 .plaatje6{grid-area: plaatje6;}
 
 .grid-container-bloemen{
+
     padding-bottom: 4vw;
     padding-left: 5vw;
     padding-right: 5vw;
     background-color: #F6F8E7;
     height: 50%;
     display: grid;
+    
     grid-template-areas: 
-    'text-bloemen text-bloemen text-bloemen'
-    'plaatje1 plaatje2 plaatje3'
-    'plaatje4 plaatje5 plaatje6'
+        'text-bloemen'
+        'plaatje1'
+        'plaatje2'
+        'plaatje3'
+        'plaatje4'
+        'plaatje5'
+        'plaatje6'
     ;
+    @media (min-width: 500px){
+        grid-template-areas: 
+        'text-bloemen text-bloemen'
+        'plaatje1 plaatje2'
+        'plaatje3 plaatje4'
+        'plaatje5 plaatje6'
+    ;
+    }
+    @media (min-width: 800px){
+        grid-template-areas: 
+        'text-bloemen text-bloemen text-bloemen'
+        'plaatje1 plaatje2 plaatje3'
+        'plaatje4 plaatje5 plaatje6'
+        ;
+    }
 }
 .grid-container-bloemen div{
     border-radius: 12px;

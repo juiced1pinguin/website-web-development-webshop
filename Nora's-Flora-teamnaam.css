@@ -129,6 +129,8 @@ body{margin: 0px; color: white; background-color: #3F593C;}
     width: 49%;
     text-align: center;
 }
+.grid-container-contact .vraag-contact input{width: 20em; height: 20em;}
+.grid-container-contact .type-contact input{width: 18em;}
 .grid-container-contact p{text-align: center;}
 
 /*code assortiment page*/

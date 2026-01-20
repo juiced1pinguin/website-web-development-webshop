@@ -156,7 +156,7 @@ body{margin: 0px; color: white; background-color: #3F593C;}
 
 /*code assortiment page*/
 div{
-text-align: center;
+text-align: center; size: 100%;
 }
 
 img{
@@ -187,10 +187,10 @@ border-top-right-radius:10px;
     "bloem5 bloem5 bloem8 bloem9";
     gap: 1rem;
     background-color:#FFFFFF;
-    padding-top:6vw; 
-    padding-bottom: 6vw;
-    padding-left: 12vw;
-    padding-right: 12vw;
+    padding-top:3rem; 
+    padding-bottom: 3rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .container div {
@@ -204,6 +204,7 @@ border-top-right-radius:10px;
     margin-top: 4vw;
 
     font-size: 2vw;
+
 }
 
 #footer{

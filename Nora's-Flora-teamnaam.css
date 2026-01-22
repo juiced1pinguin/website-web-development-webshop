@@ -110,7 +110,7 @@ body {
         'plaatje6'
     ;
 
-    @media (min-width: 500px) {
+    @media (min-width: 350px) {
         grid-template-areas:
             'text-bloemen text-bloemen'
             'plaatje1 plaatje2'
@@ -119,7 +119,7 @@ body {
         ;
     }
 
-    @media (min-width: 800px) {
+    @media (min-width: 700px) {
         grid-template-areas:
             'text-bloemen text-bloemen text-bloemen'
             'plaatje1 plaatje2 plaatje3'
@@ -139,7 +139,7 @@ body {
     color: black;
     margin-top: 4vw;
 
-    font-size: 2vw;
+    font-size: 3mm;
 }
 
 .grid-container-bloemen div img {
@@ -164,12 +164,12 @@ body {
 
 .text-welkom-nora-flora {
     grid-area: text-welkom-nora-flora;
-    font-size: 1.80vw;
+    font-size: 4mm;
 }
 
 .plaatje-welkom-nora-flora {
     grid-area: plaatje-welkom-nora-flora;
-    width: 33%;
+    width: 60%;
 }
 
 .grid-container-welkom-nora-flora {
